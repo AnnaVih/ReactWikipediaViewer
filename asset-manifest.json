@@ -1,7 +1,7 @@
 {
   "main.css": "/ReactWikipediaViewer/static/css/main.f99ce9a0.chunk.css",
-  "main.js": "/ReactWikipediaViewer/static/js/main.86c99a21.chunk.js",
-  "main.js.map": "/ReactWikipediaViewer/static/js/main.86c99a21.chunk.js.map",
+  "main.js": "/ReactWikipediaViewer/static/js/main.b057cc41.chunk.js",
+  "main.js.map": "/ReactWikipediaViewer/static/js/main.b057cc41.chunk.js.map",
   "static/js/1.40caccc8.chunk.js": "/ReactWikipediaViewer/static/js/1.40caccc8.chunk.js",
   "static/js/1.40caccc8.chunk.js.map": "/ReactWikipediaViewer/static/js/1.40caccc8.chunk.js.map",
   "runtime~main.js": "/ReactWikipediaViewer/static/js/runtime~main.0fe55cf1.js",
@@ -9,6 +9,6 @@
   "static/media/wikipediaLogo.png": "/ReactWikipediaViewer/static/media/wikipediaLogo.71b4aad3.png",
   "static/css/main.f99ce9a0.chunk.css.map": "/ReactWikipediaViewer/static/css/main.f99ce9a0.chunk.css.map",
   "index.html": "/ReactWikipediaViewer/index.html",
-  "precache-manifest.7e56b8585a7045d75c6bfe1933fc03dc.js": "/ReactWikipediaViewer/precache-manifest.7e56b8585a7045d75c6bfe1933fc03dc.js",
+  "precache-manifest.b8ff542e5ebdb8282e5396b23e1d47dd.js": "/ReactWikipediaViewer/precache-manifest.b8ff542e5ebdb8282e5396b23e1d47dd.js",
   "service-worker.js": "/ReactWikipediaViewer/service-worker.js"
 }
