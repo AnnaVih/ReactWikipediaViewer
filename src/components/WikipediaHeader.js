@@ -5,7 +5,6 @@ const WikipediaHeader = props => {
     return (
         <React.Fragment>
             <img src={WikipediaLogo} alt="Wikipedia Logo"></img>
-            <h1>Wikipedia Viewer</h1>
         </React.Fragment>
   )
 }

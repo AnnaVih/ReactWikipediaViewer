@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: black;
+  background-color: #092B40;
   color: white;
 }
 
@@ -44,10 +44,10 @@ img {
   font-size: 1rem;
   text-align: center;
   border-radius: .3rem;
-  background: white;
+  background-color: #E7E7E8;
   padding: 3%;
   margin-top: 3%;
-  color: black
+  color: #092B40
 }
 
 .wikipedia_footer {
@@ -62,8 +62,8 @@ img {
 
 .random_button,
 .search_button {
-  background-color: black;
-  color: white;
+  background-color: #092B40;
+  color: #E7E7E8;
 }
 
 .random_button,
@@ -71,7 +71,7 @@ img {
 .search_button,
 .footer_button {
   padding: .7rem;
-  border: 1px solid grey;
+  border: 1px solid #092B40;
   transition: all 1s ease-in-out;
 }
 
@@ -83,13 +83,13 @@ img {
 }
 
 .random_button:hover,
-.search_button:hover {
-  background-color: rgba(0, 0, 0, .5)
+.search_button:hover,
+.footer_button:hover {
+  background-color: rgba(0, 0, 0, .9)
 }
 
 .footer_button:hover {
-  background-color: white;
-  color:black;
+  color: #E7E7E8;
 }
 
 .random_button,
@@ -103,7 +103,8 @@ img {
 
 .footer_button {
   width: 100%;
-  background-color: grey;
+  background-color: #E7E7E8;
+  color: #092B40;
   margin-bottom: 1%;
 }
 
