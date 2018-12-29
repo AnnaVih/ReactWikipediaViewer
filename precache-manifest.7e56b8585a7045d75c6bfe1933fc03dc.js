@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/ReactWikipediaViewer/static/js/runtime~main.0fe55cf1.js"
   },
   {
-    "revision": "982e806fb8b069f808c0",
-    "url": "/ReactWikipediaViewer/static/js/main.982e806f.chunk.js"
+    "revision": "86c99a21b5974efc2bec",
+    "url": "/ReactWikipediaViewer/static/js/main.86c99a21.chunk.js"
   },
   {
     "revision": "40caccc89281ebe11b3a",
     "url": "/ReactWikipediaViewer/static/js/1.40caccc8.chunk.js"
   },
   {
-    "revision": "982e806fb8b069f808c0",
-    "url": "/ReactWikipediaViewer/static/css/main.301ca9df.chunk.css"
+    "revision": "86c99a21b5974efc2bec",
+    "url": "/ReactWikipediaViewer/static/css/main.f99ce9a0.chunk.css"
   },
   {
-    "revision": "da12b8d07ca3252c544fc0b9ba3b6a59",
+    "revision": "a92feab1d55cc75ba9efd2194b92cf55",
     "url": "/ReactWikipediaViewer/index.html"
   }
 ];
