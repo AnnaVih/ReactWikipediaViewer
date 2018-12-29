@@ -1,7 +1,6 @@
 html,
-body,
-#root {
-  height: 100vh;
+body {
+  height: 100%;
 }
 
 html {
@@ -21,6 +20,7 @@ body {
 }
 
 #root {
+  margin-top: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -34,10 +34,43 @@ img {
   animation-direction: alternate
 }
 
+ul,
+li,
+.wikipedia_wrapper {
+  padding: 2%;
+}
+
+.wikipedia_wrapper,
+.wikipedia_footer,
+ul,
+li {
+  margin-top: 3%;
+}
+
+ul {
+  list-style: none;
+  background-color: #092B40;
+  text-align: left;
+}
+
+li {
+  background-color: #E7E7E8;
+}
+
+li:hover {
+  border-left: 5px solid orange;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
 .wikipedia_wrapper,
 .wikipedia_footer {
-  width: 50%;
+  width: 70%;
   min-width: 350px;
+}
+
+.d {
+  color: white
 }
 
 .wikipedia_wrapper {
@@ -45,13 +78,10 @@ img {
   text-align: center;
   border-radius: .3rem;
   background-color: #E7E7E8;
-  padding: 3%;
-  margin-top: 3%;
-  color: #092B40
 }
 
-.wikipedia_footer {
-  margin-top: 5%;
+.wikipedia_footer,
+ul {
   font-size: 1rem;
 }
 
@@ -70,7 +100,7 @@ img {
 .search_input,
 .search_button,
 .footer_button {
-  padding: .7rem;
+  padding: 1%;
   border: 1px solid #092B40;
   transition: all 1s ease-in-out;
 }
@@ -85,7 +115,13 @@ img {
 .random_button:hover,
 .search_button:hover,
 .footer_button:hover {
-  background-color: rgba(0, 0, 0, .9)
+  background-color: rgba(0, 0, 0, .9);
+}
+
+li,
+.footer_button,
+.wikipedia_wrapper {
+  color: #092B40;
 }
 
 .footer_button:hover {
@@ -104,10 +140,11 @@ img {
 .footer_button {
   width: 100%;
   background-color: #E7E7E8;
-  color: #092B40;
   margin-bottom: 1%;
 }
 
+
+/* Animation */
 @keyframes two {
   0% {
     transform: rotateY(0);
