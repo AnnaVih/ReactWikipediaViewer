@@ -1,3 +1,121 @@
-body {
-  font-family: sans-serif
+html,
+body,
+#root {
+  height: 100vh;
 }
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#root,
+.search_container {
+  display: flex;
+}
+
+#root {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  transform: rotateY(40deg);
+  animation: two 1s infinite;
+  animation-direction: alternate
+}
+
+.wikipedia_wrapper,
+.wikipedia_footer {
+  width: 50%;
+  min-width: 350px;
+}
+
+.wikipedia_wrapper {
+  font-size: 1rem;
+  text-align: center;
+  border-radius: .3rem;
+  background: white;
+  padding: 3%;
+  margin-top: 3%;
+  color: black
+}
+
+.wikipedia_footer {
+  margin-top: 5%;
+  font-size: 1rem;
+}
+
+.search_input {
+  flex-grow: 1;
+  border-radius: .3rem 0 0 .3rem;
+}
+
+.random_button,
+.search_button {
+  background-color: black;
+  color: white;
+}
+
+.random_button,
+.search_input,
+.search_button,
+.footer_button {
+  padding: .7rem;
+  border: 1px solid grey;
+  transition: all 1s ease-in-out;
+}
+
+.random_button:focus,
+.search_input:focus,
+.search_button:focus,
+.footer_button:focus {
+  outline: none;
+}
+
+.random_button:hover,
+.search_button:hover {
+  background-color: rgba(0, 0, 0, .5)
+}
+
+.footer_button:hover {
+  background-color: white;
+  color:black;
+}
+
+.random_button,
+.footer_button {
+  border-radius: .3rem;
+}
+
+.search_button {
+  border-radius: 0 .3rem .3rem 0;
+}
+
+.footer_button {
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 1%;
+}
+
+@keyframes two {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(30deg);
+  }
+}
+
+
+
+
