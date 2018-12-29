@@ -1,10 +1,10 @@
 {
-  "name": "hooks_maximilian",
+  "name": "wikipedia_viewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
     "react-scripts": "2.1.2"
   },
   "scripts": {
