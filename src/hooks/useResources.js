@@ -6,7 +6,7 @@ const useResources = resource => {
     const [resources, setResources] = useState([])
     
     const fetchResource = async resource =>  {
-        const response = await axios.get(`https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=${resource}`)
+        const response = await axios.get(`https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=${resource}&origin=*`)
         if(isMounted){
             setResources(response.data.query.search)
         }
