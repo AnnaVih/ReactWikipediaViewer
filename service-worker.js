@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ReactWikipediaViewer/precache-manifest.8e3829fcf4ada22fb481b92415bea70d.js"
+  "/ReactWikipediaViewer/precache-manifest.a24d8523808cb69e55f4b6587498bb94.js"
 );
 
 workbox.clientsClaim();
