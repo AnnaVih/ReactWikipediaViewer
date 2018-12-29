@@ -1,10 +1,10 @@
 html,
 body {
   height: 100%;
+  box-sizing: border-box;
 }
 
 html {
-  box-sizing: border-box;
   font-size: 18px;
 }
 
@@ -31,7 +31,7 @@ img {
   height: 200px;
   transform: rotateY(40deg);
   animation: two 1s infinite;
-  animation-direction: alternate
+  animation-direction: alternate;
 }
 
 ul,
@@ -69,10 +69,6 @@ li:hover {
   min-width: 350px;
 }
 
-.d {
-  color: white
-}
-
 .wikipedia_wrapper {
   font-size: 1rem;
   text-align: center;
@@ -87,18 +83,16 @@ ul {
 
 .search_input {
   flex-grow: 1;
-  border-radius: .3rem 0 0 .3rem;
+  border-radius: .3rem;
 }
 
-.random_button,
-.search_button {
+.random_button {
   background-color: #092B40;
   color: #E7E7E8;
 }
 
 .random_button,
 .search_input,
-.search_button,
 .footer_button {
   padding: 1%;
   border: 1px solid #092B40;
@@ -107,15 +101,14 @@ ul {
 
 .random_button:focus,
 .search_input:focus,
-.search_button:focus,
 .footer_button:focus {
   outline: none;
 }
 
 .random_button:hover,
-.search_button:hover,
 .footer_button:hover {
   background-color: rgba(0, 0, 0, .9);
+  cursor: pointer;
 }
 
 li,
@@ -131,10 +124,6 @@ li,
 .random_button,
 .footer_button {
   border-radius: .3rem;
-}
-
-.search_button {
-  border-radius: 0 .3rem .3rem 0;
 }
 
 .footer_button {
