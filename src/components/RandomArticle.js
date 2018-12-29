@@ -1,9 +1,15 @@
 import React from 'react'
 
-const RandomArticle = props => {
+const RandomArticle = () => {
     return (
-        <button type="button" className="random_button">Click here for a random article</button>
-  )
+        <button
+            type="button"
+            className="random_button"
+            onClick={() => window.open("https://en.wikipedia.org/wiki/Special:Random", "_blank")}
+            >
+            Click here for a random article
+        </button>
+    )
 }
 
 export default RandomArticle
